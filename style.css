@@ -1,0 +1,69 @@
+body {
+  color: #111;
+  text-align: center;
+  font-family: "Garamond", serif; /* Garamond for both headings and body */
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2.5em; /* Adjust size for prominence */
+}
+.fadeIn1 {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+.fadeIn2 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  animation-delay: 1s;
+}
+.fadeIn3 {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  animation-delay: 2s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+p {
+  padding: 20px 30px;
+}
+img {
+  margin: 15px 2px;
+  opacity: 0.8;
+}
+img:hover {
+  opacity: 1;
+}
+hr {
+  width: 25%;
+}
+#c {
+  width: 320px;
+  min-height: 320px;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  padding: 30px;
+  margin-left: -160px;
+  margin-top: -160px;
+  border: 5px solid rgba(51, 51, 51, 0.03);
+  border-radius: 3px;
+}
+#z {
+  font-size: 12px;
+  color: #7d7d7a;
+}
+div > [href=""] {
+  display: none;
+}
+#z::before {
+  content: "Coming Soon ";
+}
