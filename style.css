@@ -67,3 +67,7 @@ div > [href=""] {
 #z::before {
   content: "Coming Soon ";
 }
+
+.logo {
+  width: 100px;
+}
